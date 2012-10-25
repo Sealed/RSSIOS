@@ -1,0 +1,479 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE46EF7416330E3D00A54C79 /* RootViewController in Resources */ = {isa = PBXBuildFile; fileRef = CE46EF7316330E3D00A54C79 /* RootViewController */; };
+		CEC2AEFC1636E24100CFF176 /* CTable.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC2AEFB1636E24100CFF176 /* CTable.m */; };
+		CEC2AF001636EBDB00CFF176 /* CData.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC2AEFF1636EBDB00CFF176 /* CData.m */; };
+		CEC2AF031636F67600CFF176 /* RootViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC2AF021636F67600CFF176 /* RootViewController2.m */; };
+		CECA54EB1639751000EC3627 /* CParser.m in Sources */ = {isa = PBXBuildFile; fileRef = CECA54EA1639751000EC3627 /* CParser.m */; };
+		CECA54EF1639A1DE00EC3627 /* ParserData.m in Sources */ = {isa = PBXBuildFile; fileRef = CECA54EE1639A1DE00EC3627 /* ParserData.m */; };
+		CECA54F51639B87700EC3627 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CECA54F41639B87700EC3627 /* SecondViewController.m */; };
+		CEDB880016396BF300280CC3 /* CDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = CEDB87FF16396BF300280CC3 /* CDownloader.m */; };
+		CEE7841116357FA5003CE14D /* CAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE7841016357FA5003CE14D /* CAlert.m */; };
+		CEF704FD1632F8740019A312 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEF704FC1632F8740019A312 /* UIKit.framework */; };
+		CEF704FF1632F8740019A312 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEF704FE1632F8740019A312 /* Foundation.framework */; };
+		CEF705011632F8740019A312 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEF705001632F8740019A312 /* CoreGraphics.framework */; };
+		CEF705071632F8740019A312 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CEF705051632F8740019A312 /* InfoPlist.strings */; };
+		CEF705091632F8740019A312 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CEF705081632F8740019A312 /* main.m */; };
+		CEF7050D1632F8740019A312 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CEF7050C1632F8740019A312 /* AppDelegate.m */; };
+		CEF705151632F8750019A312 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEF705141632F8750019A312 /* SenTestingKit.framework */; };
+		CEF705161632F8750019A312 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEF704FC1632F8740019A312 /* UIKit.framework */; };
+		CEF705171632F8750019A312 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEF704FE1632F8740019A312 /* Foundation.framework */; };
+		CEF7051F1632F8750019A312 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CEF7051D1632F8750019A312 /* InfoPlist.strings */; };
+		CEF705221632F8750019A312 /* FisrtStepRSSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CEF705211632F8750019A312 /* FisrtStepRSSTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CEF705181632F8750019A312 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEF704EF1632F8740019A312 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEF704F71632F8740019A312;
+			remoteInfo = FisrtStepRSS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CE46EF7316330E3D00A54C79 /* RootViewController */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = RootViewController; path = /Users/User/Desktop/RootViewController; sourceTree = "<absolute>"; };
+		CEC2AEFA1636E24100CFF176 /* CTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTable.h; sourceTree = "<group>"; };
+		CEC2AEFB1636E24100CFF176 /* CTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTable.m; sourceTree = "<group>"; };
+		CEC2AEFE1636EBDB00CFF176 /* CData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CData.h; sourceTree = "<group>"; };
+		CEC2AEFF1636EBDB00CFF176 /* CData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CData.m; sourceTree = "<group>"; };
+		CEC2AF011636F67600CFF176 /* RootViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RootViewController2.h; path = ../RootViewController2.h; sourceTree = "<group>"; };
+		CEC2AF021636F67600CFF176 /* RootViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RootViewController2.m; path = ../RootViewController2.m; sourceTree = "<group>"; };
+		CECA54E91639751000EC3627 /* CParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CParser.h; sourceTree = "<group>"; };
+		CECA54EA1639751000EC3627 /* CParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CParser.m; sourceTree = "<group>"; };
+		CECA54ED1639A1DE00EC3627 /* ParserData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ParserData.h; path = ../ParserData.h; sourceTree = "<group>"; };
+		CECA54EE1639A1DE00EC3627 /* ParserData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ParserData.m; path = ../ParserData.m; sourceTree = "<group>"; };
+		CECA54F31639B87700EC3627 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SecondViewController.h; path = ../SecondViewController.h; sourceTree = "<group>"; };
+		CECA54F41639B87700EC3627 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SecondViewController.m; path = ../SecondViewController.m; sourceTree = "<group>"; };
+		CEDB87FE16396BF300280CC3 /* CDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDownloader.h; sourceTree = "<group>"; };
+		CEDB87FF16396BF300280CC3 /* CDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDownloader.m; sourceTree = "<group>"; };
+		CEE7840F16357FA5003CE14D /* CAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAlert.h; sourceTree = "<group>"; };
+		CEE7841016357FA5003CE14D /* CAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CAlert.m; sourceTree = "<group>"; };
+		CEF704F81632F8740019A312 /* FisrtStepRSS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FisrtStepRSS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEF704FC1632F8740019A312 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CEF704FE1632F8740019A312 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CEF705001632F8740019A312 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CEF705041632F8740019A312 /* FisrtStepRSS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FisrtStepRSS-Info.plist"; sourceTree = "<group>"; };
+		CEF705061632F8740019A312 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CEF705081632F8740019A312 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CEF7050A1632F8740019A312 /* FisrtStepRSS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FisrtStepRSS-Prefix.pch"; sourceTree = "<group>"; };
+		CEF7050B1632F8740019A312 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CEF7050C1632F8740019A312 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CEF705131632F8750019A312 /* FisrtStepRSSTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FisrtStepRSSTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEF705141632F8750019A312 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		CEF7051C1632F8750019A312 /* FisrtStepRSSTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FisrtStepRSSTests-Info.plist"; sourceTree = "<group>"; };
+		CEF7051E1632F8750019A312 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CEF705201632F8750019A312 /* FisrtStepRSSTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FisrtStepRSSTests.h; sourceTree = "<group>"; };
+		CEF705211632F8750019A312 /* FisrtStepRSSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FisrtStepRSSTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEF704F51632F8740019A312 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEF704FD1632F8740019A312 /* UIKit.framework in Frameworks */,
+				CEF704FF1632F8740019A312 /* Foundation.framework in Frameworks */,
+				CEF705011632F8740019A312 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEF7050F1632F8750019A312 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEF705151632F8750019A312 /* SenTestingKit.framework in Frameworks */,
+				CEF705161632F8750019A312 /* UIKit.framework in Frameworks */,
+				CEF705171632F8750019A312 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEF704ED1632F8740019A312 = {
+			isa = PBXGroup;
+			children = (
+				CEF705021632F8740019A312 /* FisrtStepRSS */,
+				CEF7051A1632F8750019A312 /* FisrtStepRSSTests */,
+				CEF704FB1632F8740019A312 /* Frameworks */,
+				CEF704F91632F8740019A312 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEF704F91632F8740019A312 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEF704F81632F8740019A312 /* FisrtStepRSS.app */,
+				CEF705131632F8750019A312 /* FisrtStepRSSTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEF704FB1632F8740019A312 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CEF704FC1632F8740019A312 /* UIKit.framework */,
+				CEF704FE1632F8740019A312 /* Foundation.framework */,
+				CEF705001632F8740019A312 /* CoreGraphics.framework */,
+				CEF705141632F8750019A312 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CEF705021632F8740019A312 /* FisrtStepRSS */ = {
+			isa = PBXGroup;
+			children = (
+				CEF7050B1632F8740019A312 /* AppDelegate.h */,
+				CEF7050C1632F8740019A312 /* AppDelegate.m */,
+				CEC2AF011636F67600CFF176 /* RootViewController2.h */,
+				CEC2AF021636F67600CFF176 /* RootViewController2.m */,
+				CECA54F31639B87700EC3627 /* SecondViewController.h */,
+				CECA54F41639B87700EC3627 /* SecondViewController.m */,
+				CEE7840F16357FA5003CE14D /* CAlert.h */,
+				CEE7841016357FA5003CE14D /* CAlert.m */,
+				CEC2AEFA1636E24100CFF176 /* CTable.h */,
+				CEC2AEFB1636E24100CFF176 /* CTable.m */,
+				CEC2AEFE1636EBDB00CFF176 /* CData.h */,
+				CEC2AEFF1636EBDB00CFF176 /* CData.m */,
+				CEDB87FE16396BF300280CC3 /* CDownloader.h */,
+				CEDB87FF16396BF300280CC3 /* CDownloader.m */,
+				CECA54E91639751000EC3627 /* CParser.h */,
+				CECA54EA1639751000EC3627 /* CParser.m */,
+				CECA54ED1639A1DE00EC3627 /* ParserData.h */,
+				CECA54EE1639A1DE00EC3627 /* ParserData.m */,
+				CEF705031632F8740019A312 /* Supporting Files */,
+			);
+			path = FisrtStepRSS;
+			sourceTree = "<group>";
+		};
+		CEF705031632F8740019A312 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE46EF7316330E3D00A54C79 /* RootViewController */,
+				CEF705041632F8740019A312 /* FisrtStepRSS-Info.plist */,
+				CEF705051632F8740019A312 /* InfoPlist.strings */,
+				CEF705081632F8740019A312 /* main.m */,
+				CEF7050A1632F8740019A312 /* FisrtStepRSS-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CEF7051A1632F8750019A312 /* FisrtStepRSSTests */ = {
+			isa = PBXGroup;
+			children = (
+				CEF705201632F8750019A312 /* FisrtStepRSSTests.h */,
+				CEF705211632F8750019A312 /* FisrtStepRSSTests.m */,
+				CEF7051B1632F8750019A312 /* Supporting Files */,
+			);
+			path = FisrtStepRSSTests;
+			sourceTree = "<group>";
+		};
+		CEF7051B1632F8750019A312 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CEF7051C1632F8750019A312 /* FisrtStepRSSTests-Info.plist */,
+				CEF7051D1632F8750019A312 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEF704F71632F8740019A312 /* FisrtStepRSS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEF705251632F8750019A312 /* Build configuration list for PBXNativeTarget "FisrtStepRSS" */;
+			buildPhases = (
+				CEF704F41632F8740019A312 /* Sources */,
+				CEF704F51632F8740019A312 /* Frameworks */,
+				CEF704F61632F8740019A312 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FisrtStepRSS;
+			productName = FisrtStepRSS;
+			productReference = CEF704F81632F8740019A312 /* FisrtStepRSS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CEF705121632F8750019A312 /* FisrtStepRSSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEF705281632F8750019A312 /* Build configuration list for PBXNativeTarget "FisrtStepRSSTests" */;
+			buildPhases = (
+				CEF7050E1632F8750019A312 /* Sources */,
+				CEF7050F1632F8750019A312 /* Frameworks */,
+				CEF705101632F8750019A312 /* Resources */,
+				CEF705111632F8750019A312 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEF705191632F8750019A312 /* PBXTargetDependency */,
+			);
+			name = FisrtStepRSSTests;
+			productName = FisrtStepRSSTests;
+			productReference = CEF705131632F8750019A312 /* FisrtStepRSSTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEF704EF1632F8740019A312 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Vadim Glushko";
+			};
+			buildConfigurationList = CEF704F21632F8740019A312 /* Build configuration list for PBXProject "FisrtStepRSS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CEF704ED1632F8740019A312;
+			productRefGroup = CEF704F91632F8740019A312 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEF704F71632F8740019A312 /* FisrtStepRSS */,
+				CEF705121632F8750019A312 /* FisrtStepRSSTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEF704F61632F8740019A312 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEF705071632F8740019A312 /* InfoPlist.strings in Resources */,
+				CE46EF7416330E3D00A54C79 /* RootViewController in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEF705101632F8750019A312 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEF7051F1632F8750019A312 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CEF705111632F8750019A312 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEF704F41632F8740019A312 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEF705091632F8740019A312 /* main.m in Sources */,
+				CEF7050D1632F8740019A312 /* AppDelegate.m in Sources */,
+				CEE7841116357FA5003CE14D /* CAlert.m in Sources */,
+				CEC2AEFC1636E24100CFF176 /* CTable.m in Sources */,
+				CEC2AF001636EBDB00CFF176 /* CData.m in Sources */,
+				CEC2AF031636F67600CFF176 /* RootViewController2.m in Sources */,
+				CEDB880016396BF300280CC3 /* CDownloader.m in Sources */,
+				CECA54EB1639751000EC3627 /* CParser.m in Sources */,
+				CECA54EF1639A1DE00EC3627 /* ParserData.m in Sources */,
+				CECA54F51639B87700EC3627 /* SecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEF7050E1632F8750019A312 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEF705221632F8750019A312 /* FisrtStepRSSTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CEF705191632F8750019A312 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEF704F71632F8740019A312 /* FisrtStepRSS */;
+			targetProxy = CEF705181632F8750019A312 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CEF705051632F8740019A312 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEF705061632F8740019A312 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CEF7051D1632F8750019A312 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEF7051E1632F8750019A312 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEF705231632F8750019A312 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CEF705241632F8750019A312 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEF705261632F8750019A312 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FisrtStepRSS/FisrtStepRSS-Prefix.pch";
+				INFOPLIST_FILE = "FisrtStepRSS/FisrtStepRSS-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CEF705271632F8750019A312 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FisrtStepRSS/FisrtStepRSS-Prefix.pch";
+				INFOPLIST_FILE = "FisrtStepRSS/FisrtStepRSS-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CEF705291632F8750019A312 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FisrtStepRSS.app/FisrtStepRSS";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FisrtStepRSS/FisrtStepRSS-Prefix.pch";
+				INFOPLIST_FILE = "FisrtStepRSSTests/FisrtStepRSSTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		CEF7052A1632F8750019A312 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FisrtStepRSS.app/FisrtStepRSS";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FisrtStepRSS/FisrtStepRSS-Prefix.pch";
+				INFOPLIST_FILE = "FisrtStepRSSTests/FisrtStepRSSTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEF704F21632F8740019A312 /* Build configuration list for PBXProject "FisrtStepRSS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEF705231632F8750019A312 /* Debug */,
+				CEF705241632F8750019A312 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEF705251632F8750019A312 /* Build configuration list for PBXNativeTarget "FisrtStepRSS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEF705261632F8750019A312 /* Debug */,
+				CEF705271632F8750019A312 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEF705281632F8750019A312 /* Build configuration list for PBXNativeTarget "FisrtStepRSSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEF705291632F8750019A312 /* Debug */,
+				CEF7052A1632F8750019A312 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEF704EF1632F8740019A312 /* Project object */;
+}
